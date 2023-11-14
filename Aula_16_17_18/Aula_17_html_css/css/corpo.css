@@ -1,0 +1,45 @@
+main{
+    width: 100%;
+    height: auto;
+    background-color: powderblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header{
+    width: 80%;
+    height: 200px;
+    background-color:aquamarine;
+    margin: 0 auto;
+}
+nav{
+    width: 30%;
+    height: 500px;
+    background-color: cadetblue;
+}
+section:after{
+    
+    content: "";
+    display: table;
+    clear: both;
+}
+article{
+    width: 70%;
+    height: 500px;
+    background-color: cornflowerblue;
+    float: left;
+}
+footer{
+    width: 80%;
+    height: 200px;
+    background-color:darkcyan;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    header, nav, article, footer{
+        width: 100%;
+        height: auto;
+    }
+}
