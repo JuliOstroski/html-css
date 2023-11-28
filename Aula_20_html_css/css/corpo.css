@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+}
+main{
+	width: 100%;
+	height: auto;
+}
+header{
+	width: 100%;
+	height: 300px;
+	background-image:url("../imagens/starfundo.jpg");
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 6px;
+}
+
+#divesqheader{
+	width: 30%;
+	height: auto;
+	padding-top: 50px;
+	padding-left: 20px;
+	float: left;
+}
+
+#divmeioheader{
+	width: 70%;
+	height: 300px;
+	text-align: center;
+	color: white;
+	position: relative;
+	float: left;
+	padding-top: 120px;
+	font-size: 34px;
+}
+
+nav{
+	width: 100%;
+	height: 80px;
+	padding: 1px;
+}
+
+article{
+	width: 95%;
+	height: auto;
+	padding: 10px;
+	background-color: #f1f1f1;
+	margin: 0 auto;
+	border-radius: 6px;
+}
+footer{
+	padding: 10px;
+	width: 100%;
+	height: 80px;
+}
+@media all and ("max-width: 1300px"){
+	header, main, nav, article, footer{
+		width: 100%;
+		height: auto;
+	}
+}
+@media all and ("max-width: 980px"){
+	header{
+		width: 100%;
+		height: 300px;
+	}
+	#divesqheader{
+		width: 100%;
+		height: auto;
+		padding-left: 20px;
+		padding-top: 20px;
+		float: left;
+	}
+	#divmeioheader{
+		width: 100%;
+		height: auto;
+		text-align: center;
+		color: white;
+		position: relative;
+		float: left;
+	}
+}
