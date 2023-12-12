@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--CDN BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!--MEU CSS-->
+  <link href="estilo.css" rel="stylesheet">
+  
+  <!--icones BOOTSTRAP-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  
+</head>
+<body>
+
+<div class="container-fluid">
+  
+    <!--inicio menu-->
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript:void(0)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKZBar12QLXYX8rn6uV8twBH13ijw7NC_bivt3SRMm196fCbiPn9btTa6cJZclMk2XCVc&usqp=CAU" alt="logo do menu" id="logo_menu"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="história.html">História</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Sabores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Contato</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Procurar">
+        <button class="btn btn-primary" type="button"><i class="bi bi-search"></i></button>
+      </form>
+    </div>
+  </div>
+</nav>  
+    <!--fim menu-->
+	
+	<!--inicio carrossel-->
+		<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://uploads.metropoles.com/wp-content/uploads/2023/08/09145143/Pizza-31.jpg" alt="pizza01" class="d-block w-100 imagem_carrossel">
+    </div>
+    <div class="carousel-item">
+      <img src="https://static.itdg.com.br/images/360-240/f4bbeabf4bbca46b2cf412101a7d6e7b/353086-original.jpg" alt="pizza02" class="d-block w-100 imagem_carrossel">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbgLReuf9lW8U49fHZWx1puIfm9y048eXNlP5v9S1nkXxq9Jj_cQ4ajCSvBtIH46uJEQw&usqp=CAU" alt="pizza03" class="d-block w-100 imagem_carrossel">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>	
+	<!--fim carrossel-->
+   
+
+
+
+
+
+
+
+   
+</div>
+
+</body>
+</html>

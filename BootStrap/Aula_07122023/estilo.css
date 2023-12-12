@@ -1,0 +1,32 @@
+
+
+#logo_menu
+{
+	width:60px;
+	height:60px;
+}
+
+.imagem_carrossel
+{
+	max-width: 80%;
+	height: 500px;
+	margin-left: 10%;
+}	
+
+.row
+{
+	margin-top: 5%;
+}
+
+#texto_historia
+{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: justify;
+	
+}
+
+#img1_historia
+{
+	height: 250px;
+	width: 250px;
+}
